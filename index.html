@@ -1,0 +1,65 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <link href="styles/cube.css" type="text/css" rel="stylesheet">
+    <link href="styles/doodle.css" type="text/css" rel="stylesheet">
+    <link href="styles/certificate.css" type="text/css" rel="stylesheet">
+    <!-- Script font -->
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rubik+One&amp;subset=all">
+    <!-- compiled & minified cube code -->
+    <script src="scripts/tween.js" charset="utf-8"></script>
+    <script src="scripts/Three.noStrict.js" charset="utf-8"></script>
+    <script src="scripts/cuber.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="bg"></div>
+    <div id="container"></div>
+    <div id="fail">
+      <img src="media/static-cube.png">
+      <div class="bubble fadeTransition" id="upgradeText">
+        <div class="upgradetext">To play, please use the latest version of one of the following browsers</div>
+        <br><br>
+        <a target="_blank" href="https://www.google.com/chrome/browser/" class="upgradetext">Chrome</a><br>
+        <a target="_blank" href="https://www.mozilla.org/firefox" class="upgradetext">Firefox</a><br>
+        <a target="_blank" href="https://www.apple.com/safari" class="upgradetext">Safari</a><br>
+        <span class="pointerleft SPRITE_carrot_down_2x"></span>
+      </div>
+    </div>
+    <div class="fadeTransition" id="uipanel" style="opacity: 1;">
+      <div id="movecounter" style="display: none;">0</div>
+      <div id="buttonpanel" style="display: none;">
+        <div style="opacity:0" class="fadeTransition" id="sharebubble">
+          <input type="text" readonly="readonly" value="google.com/doodles" id="shareshortlink">
+          <div class="bubbleicon SPRITE_google_plus_64_2x" id="sharegplus"></div>
+          <div class="bubbleicon SPRITE_facebook_64_2x" id="sharefacebook"></div>
+          <div class="bubbleicon SPRITE_twitter_64_2x" id="sharetwitter"></div>
+          <div class="bubbleicon SPRITE_email_64_2x" id="shareemail"></div>
+        </div>
+        <div id="uibuttons">
+          <div class="bubbleicon SPRITE_share_64_2x" id="sharebutton"></div>
+          <div class="bubbleicon SPRITE_help_64_2x" id="helpbutton"></div>
+          <div class="bubbleicon SPRITE_search_64_2x" id="searchbutton"></div>
+        </div>
+      </div>
+      <div style="display:none" class="bubble" id="helpbubble" dir="">
+        <span class="pointerup SPRITE_carrot_grey_up_2x"></span>
+        <div class="one" id="helpimage"></div>
+        <div class="helptext" id="helptext"></div>
+        <div class="helptext" id="helpnext"></div>
+        <span class="pointerdown SPRITE_carrot_down_2x"></span><br>
+      </div>
+    </div>
+    <script src="scripts/iecss3d.js" charset="utf-8"></script>
+    <script src="scripts/ierenderer.js" charset="utf-8"></script>
+    <script src="scripts/deviceMotion.js" charset="utf-8"></script>
+    <script src="scripts/locked.js" charset="utf-8"></script>
+    <!-- Certificate js -->
+    <script src="scripts/textBox.js" charset="utf-8"></script>
+    <script src="scripts/ResizeableTextBox.js" charset="utf-8"></script>
+    <script src="scripts/divBox.js" charset="utf-8"></script>
+    <script src="scripts/frames.js" charset="utf-8"></script>
+    <script src="scripts/certificate.js" charset="utf-8"></script>
+    <script src="scripts/main.js" charset="utf-8"></script>
+  
+
+</body></html>
